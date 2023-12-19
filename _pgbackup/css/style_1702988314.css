@@ -1,0 +1,17 @@
+.font-larger {
+    font-size: 65px;
+}
+
+.span-before {
+    position: relative;
+    padding: 0px;
+}
+
+.span-before::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    z-index: 2;
+}
